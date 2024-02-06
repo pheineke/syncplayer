@@ -15,9 +15,11 @@
   
 ## umsetzungsplanung
 * interface
+  * idk man
 * sync
   * bei joinen wird automatisch gesynced
   * wenn lieder anfangen syncen -> kurze lieder immer synced
-  * maybe nach anzahl länger als avrg lied ohne sync synccheck (maybe auch nur bei liedern länger als das) 
+  * maybe nach anzahl länger als avrg lied ohne sync synccheck (maybe auch nur bei liedern länger als das)
+  * manual sync button
 * queue
   * idk man 
