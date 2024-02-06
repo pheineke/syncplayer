@@ -4,10 +4,9 @@
 ### geplant:
 * server interface
  * queue 
- * user
-  * anzeigen 
-  * kicken
-  * syncen
+ * user anzeigen 
+ * user kicken
+ *  user syncen
    
 * client interface
   * pause/resume
