@@ -53,6 +53,6 @@ class Player():
         t1 = threading.Thread(target=audio_stream, args=())
         t1.start()
 
-if __name__ is "__main__":
+if __name__ == "__main__":
     p = Player()
     p.run()
