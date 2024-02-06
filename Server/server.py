@@ -21,7 +21,7 @@ clients_lock = threading.Lock()  # Lock für die Thread-Sicherheit der Clients-L
 stream_paused = False
 
 def audio_stream(client_socket):
-    wf = wave.open("./resource/temp_2.wav", 'rb')
+    wf = wave.open("./resource/summer.wav", 'rb')
 
     p = pyaudio.PyAudio()
 
