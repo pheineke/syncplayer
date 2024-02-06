@@ -2,9 +2,18 @@
 ### wat dat ding?
 * ein fucking funneyh network synchronised music player
 ### geplant:
-* "web" interface
-  * pause/resume skipforward skip backwards
-  * queue
+* server interface
+ * queue 
+ * user
+  * anzeigen 
+  * kicken
+  * syncen
+   
+* client interface
+  * pause/resume
+  * relog
+  * skip button
+  
 ## umsetzungsplanung
 * interface
 * sync
