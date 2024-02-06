@@ -1,5 +1,5 @@
 import tkinter as tk
-from player import Player  # Beachte die Großschreibung für Klassennamen
+from client import Player  # Beachte die Großschreibung für Klassennamen
 
 class LoginWindow():
     def __init__(self):
