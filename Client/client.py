@@ -50,9 +50,10 @@ class Player():
                         break
 
             print('Audio closed')
-        t1 = threading.Thread(target=audio_stream, args=())
-        t1.start()
-
+        #t1 = threading.Thread(target=audio_stream, args=())
+        #t1.start()
+        audio_stream()
+        
 if __name__ == "__main__":
     p = Player()
     p.run()
