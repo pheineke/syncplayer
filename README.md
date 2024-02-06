@@ -3,10 +3,10 @@
 * ein fucking funneyh network synchronised music player
 ### geplant:
 * server interface
- * queue 
- * user anzeigen 
- * user kicken
- *  user syncen
+   * queue 
+   * user anzeigen 
+   * user kicken
+   *  user syncen
    
 * client interface
   * pause/resume
