@@ -10,6 +10,7 @@ class Player():
     def __init__(self) -> None:
         self.host_ip = '10.10.10.199'
         self.port = 12347
+        self.running = True
 
     def run(self):
         def audio_stream():
@@ -29,7 +30,7 @@ class Player():
 
                 data = b""
                 payload_size = struct.calcsize("Q")
-                while True:
+                while self.running:
                     try:
                         while len(data) < payload_size:
                             packet = client_socket.recv(4 * 1024)  # 4K
